@@ -12,7 +12,7 @@ L'objectif globale de ce tp est de connaitre les avantages et les inconvénients
 
 Voici un schéma de chacun des cas suivants :
 
- - 1er cas : Un switch connecté à trois machines dans le même réseau avec diffusion broadcast.
+ - **1er cas : Un switch connecté à trois machines dans le même réseau avec diffusion broadcast.**
  
  On a trois machines d'adresse respective 192.168.1.2, 192.168.1.3, 192.168.1.4.
  
@@ -31,7 +31,7 @@ La diffusion broadcast : Dans un réseau avec une diffusion broadcast, chaque pa
 La sécurité : Toutes les machines sont dans le même réseau, ce qui peut poser des problèmes de sécurité si des mesures de sécurité appropriées ne sont pas mises en place pour isoler les différentes machines.
 
 
-- 2ème cas : Trois PC, chaque PC est connecté à un switch différent dans 3 LAN distincts.
+- **2ème cas : Trois PC, chaque PC est connecté à un switch différent dans 3 LAN distincts.**
 
  <p align="center">
   <img src="https://user-images.githubusercontent.com/73228919/232822562-378dffff-d765-45df-ac02-8220cf3fddac.png">
@@ -47,7 +47,7 @@ La flexibilité : Chaque réseau local peut être configuré indépendamment en 
 La complexité : Ce cas peut être plus complexe à configurer et à gérer, car il nécessite la mise en place de routage entre les différents réseaux locaux pour permettre la communication entre les PC.
 Les coûts : Avoir trois switches distincts peut entraîner des coûts supplémentaires en termes d'achat de matériel réseau.
 
-- 3ème cas : Trois PC connectés à un switch avec 3 VLAN.
+- **3ème cas : Trois PC connectés à un switch avec 3 VLAN.**
 
 
 
