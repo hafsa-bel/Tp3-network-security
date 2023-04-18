@@ -20,6 +20,14 @@ Voici un schéma de chacun des cas suivants :
   <img src="https://user-images.githubusercontent.com/73228919/232815044-bcfbb235-f134-47b2-8846-2257345ef44c.png">
 </p>
 
+Voilà une démo du pinging
+
+
+
+https://user-images.githubusercontent.com/73228919/232833476-395fe88d-91e3-4cc0-b1ef-46c039ff1957.mp4
+
+
+
 - *Avantages :*
 
 La simplicité : Ce cas est simple à mettre en œuvre car il n'y a qu'un seul réseau et une diffusion broadcast simple à gérer.
@@ -38,11 +46,12 @@ La sécurité : Toutes les machines sont dans le même réseau, ce qui peut pose
 </p>
 
 voila la table de routage
+
  <p align="center">
   <img src="https://user-images.githubusercontent.com/73228919/232832018-5fd93fd2-345d-4e45-961c-2afce32009c2.png">
 </p>
 
-Voilà une video du pinging
+Voilà une démo du pinging
 
 
 https://user-images.githubusercontent.com/73228919/232832630-749c8a4d-82f3-44ae-b04d-86149c1d83e1.mp4
@@ -65,7 +74,7 @@ Les coûts : Avoir trois switches distincts peut entraîner des coûts suppléme
   <img src="https://user-images.githubusercontent.com/73228919/232830182-017a58c8-ace6-45b4-8487-7c1603c5b450.png">
 </p>
  
-L'image ci-dessus montre le schéma et la configuration des vlans **v1** , **v2** et **v3**.
+L'image ci-dessus montre le schéma et la configuration des vlans **v1 = vlan 10**  , **v2 = vlan 20 ** et **v3 = vlan 30**.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73228919/232829568-d70c6388-ba05-4ece-8e3c-6e99dd61b967.png">
@@ -77,7 +86,7 @@ Si on teste maintenant les pings on va remarquer qu'il ne va pas fonctionner
   <img src="https://user-images.githubusercontent.com/73228919/232829805-f0084e3f-94c2-4f82-8bc9-077de291810b.png">
 </p>
 
-Maintenant on va configurer le routeur
+Maintenant on va configurer le routeur avec encapsulation
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73228919/232830320-88f28cd8-2b22-467f-b3f4-47dc4b90d4d2.png">
@@ -94,7 +103,7 @@ Aprés ca on va configurer les adresses passerelles des machines
   
 </p>
 
-Voila une video démonstrative qui montre le pinging et le routing et meme les vlans.
+Voila une vidéo démonstrative qui montre le pinging et le routing et meme les vlans.
 
 https://user-images.githubusercontent.com/73228919/232831764-a54b588e-33dc-4445-957e-6c7e61683d14.mp4
 
@@ -108,7 +117,7 @@ https://user-images.githubusercontent.com/73228919/232831764-a54b588e-33dc-4445-
 
 ***Cas de trois VLAN distincts :*** Dans cette configuration, les PC sont connectés à un switch avec trois VLAN distincts. Cela permet de créer des réseaux locaux virtuels isolés, ce qui peut offrir un niveau de sécurité plus élevé par rapport à la diffusion broadcast. Les VLAN peuvent être configurés pour restreindre la communication entre eux, ce qui peut aider à limiter les risques potentiels d'attaques entre les différents réseaux.
 
-# Recommandation et concnlusion :
+# Recommandation et conclusion :
  
 En termes de sécurité, le cas de trois VLAN distincts offre généralement un niveau de sécurité plus élevé par rapport aux autres deux cas, car il permet d'isoler les différents réseaux locaux virtuels et de limiter la diffusion broadcast. Cependant, la configuration spécifique du réseau et les besoins de sécurité de l'environnement doivent être pris en compte pour déterminer la meilleure solution. Il est recommandé de mettre en œuvre des politiques de sécurité appropriées, telles que la configuration de listes de contrôle d'accès (ACL) et de pare-feux pour protéger les réseaux et les machines individuelles, quelle que soit la configuration choisie.
 
