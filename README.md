@@ -37,6 +37,18 @@ La sécurité : Toutes les machines sont dans le même réseau, ce qui peut pose
   <img src="https://user-images.githubusercontent.com/73228919/232822562-378dffff-d765-45df-ac02-8220cf3fddac.png">
 </p>
 
+voila la table de routage
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/232832018-5fd93fd2-345d-4e45-961c-2afce32009c2.png">
+</p>
+
+Voilà une video du pinging
+
+
+https://user-images.githubusercontent.com/73228919/232832630-749c8a4d-82f3-44ae-b04d-86149c1d83e1.mp4
+
+
+
 - *Avantages :*
 
 L'isolement du trafic : Chaque PC est dans un réseau local distinct (LAN), ce qui permet d'isoler le trafic entre les différents réseaux. Cela peut être bénéfique en termes de sécurité et de performances du réseau.
@@ -81,4 +93,27 @@ Aprés ca on va configurer les adresses passerelles des machines
   <img width="500" src="https://user-images.githubusercontent.com/73228919/232830706-ccd2fc69-21b1-4f4f-99d4-95b5fd23f7db.png">
   
 </p>
+
+Voila une video démonstrative qui montre le pinging et le routing et meme les vlans.
+
+https://user-images.githubusercontent.com/73228919/232831764-a54b588e-33dc-4445-957e-6c7e61683d14.mp4
+
+# Comparaison:
+ 
+- Comparaison des trois cas en termes de sécurité :
+
+***Cas du switch unique avec diffusion broadcast :*** Dans cette configuration, toutes les machines sont connectées au même switch, ce qui signifie qu'elles sont dans le même réseau de diffusion broadcast. Cela peut présenter un risque en termes de sécurité, car toute machine peut potentiellement envoyer des diffusions broadcast qui seront reçues par toutes les autres machines du réseau. Cela peut augmenter la surface d'attaque et rendre plus difficile la gestion des niveaux de sécurité pour chaque machine individuelle.
+
+***Cas de trois LAN distincts :*** Dans cette configuration, chaque PC est connecté à un switch distinct dans un LAN distinct. Cela peut offrir un niveau de sécurité plus élevé car les LAN sont isolés les uns des autres et les diffusions broadcast sont limitées à chaque LAN spécifique. Cependant, la sécurité dépendra également de la configuration spécifique du routeur utilisé pour interconnecter les LAN, ainsi que des politiques de sécurité mises en place au niveau des LAN individuels.
+
+***Cas de trois VLAN distincts :*** Dans cette configuration, les PC sont connectés à un switch avec trois VLAN distincts. Cela permet de créer des réseaux locaux virtuels isolés, ce qui peut offrir un niveau de sécurité plus élevé par rapport à la diffusion broadcast. Les VLAN peuvent être configurés pour restreindre la communication entre eux, ce qui peut aider à limiter les risques potentiels d'attaques entre les différents réseaux.
+
+# Recommandation et concnlusion :
+ 
+En termes de sécurité, le cas de trois VLAN distincts offre généralement un niveau de sécurité plus élevé par rapport aux autres deux cas, car il permet d'isoler les différents réseaux locaux virtuels et de limiter la diffusion broadcast. Cependant, la configuration spécifique du réseau et les besoins de sécurité de l'environnement doivent être pris en compte pour déterminer la meilleure solution. Il est recommandé de mettre en œuvre des politiques de sécurité appropriées, telles que la configuration de listes de contrôle d'accès (ACL) et de pare-feux pour protéger les réseaux et les machines individuelles, quelle que soit la configuration choisie.
+
+
+
+
+
 
