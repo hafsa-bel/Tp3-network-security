@@ -49,7 +49,36 @@ Les coûts : Avoir trois switches distincts peut entraîner des coûts suppléme
 
 - **3ème cas : Trois PC connectés à un switch avec 3 VLAN.**
 
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/232830182-017a58c8-ace6-45b4-8487-7c1603c5b450.png">
+</p>
+ 
+L'image ci-dessus montre le schéma et la configuration des vlans **v1** , **v2** et **v3**.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/232829568-d70c6388-ba05-4ece-8e3c-6e99dd61b967.png">
+</p>
 
+Si on teste maintenant les pings on va remarquer qu'il ne va pas fonctionner
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/232829805-f0084e3f-94c2-4f82-8bc9-077de291810b.png">
+</p>
+
+Maintenant on va configurer le routeur
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/232830320-88f28cd8-2b22-467f-b3f4-47dc4b90d4d2.png">
+  <img src="https://user-images.githubusercontent.com/73228919/232830335-6dffbe17-9496-4385-9419-e14c27a9c6fc.png">
+ 
+</p>
+
+Aprés ca on va configurer les adresses passerelles des machines
+
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/232830686-2f781e33-6a43-4ddf-b97b-d1bd934f5a36.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/232830693-3114c29c-e87a-4323-bec8-b255b4c41a3b.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/232830706-ccd2fc69-21b1-4f4f-99d4-95b5fd23f7db.png">
+  
+</p>
 
