@@ -14,6 +14,5 @@ Voici un schéma de chacun des cas suivants :
  - Le 1 er cas :
  On a trois machines d'adresse respective 192.168.1.2, 192.168.1.3, 192.168.1.4.
  
- <p align="center">
-  <img width="1000" src="https://user-images.githubusercontent.com/73228919/232814867-f61c3a2b-5a5e-4649-bb1c-ad03fc2c53ce.png">
-</p>
+ ![image](https://user-images.githubusercontent.com/73228919/232815044-bcfbb235-f134-47b2-8846-2257345ef44c.png)
+
